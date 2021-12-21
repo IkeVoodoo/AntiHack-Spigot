@@ -15,8 +15,11 @@ import java.util.Locale;
 
 public final class Main extends JavaPlugin {
 
+    public static Main INSTANCE;
+
     @Override
     public void onEnable() {
+        INSTANCE = this;
         addFilter();
         getServer().getPluginManager().registerEvents(new PlayerListener(), this);
     }
