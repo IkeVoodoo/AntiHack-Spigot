@@ -1,6 +1,6 @@
-name: Me.ikevoodoo
+name: AntiHack
 version: '${project.version}'
-main: antihackspigot.me.ikevoodoo.Me.ikevoodoo
+main: me.ikevoodoo.antihack.Main
 api-version: 1.13
 authors: [ IkeVoodoo ]
 description: Spigot version of AntiHack, An atempt at fixing the Log4Shell exploit
